@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    font-family: 'Raleway';
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+h4 {
+    margin: 10px 0 0 !important;
+}
+
+.contain {
+    width: 100%;
+    background-color: rgb(70, 177, 248);
+    position: fixed;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(70, 177, 248);
+}
+
+.container img {
+    width: 30px;
+}
+
+.navbarInput {
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    height: 30px;
+}
+
+.headIcons img {
+    margin: 0 10px;
+    cursor: pointer;
+    width: 20px;
+}
+
+.headIcons img:hover {
+    opacity: 50%;
+}
+
+.navbarBrand {
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 23px;
+    color: black;
+    margin-top: 10px;
+}
+
+.headDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.storys {
+    margin-top: 120px;
+}
+
+.users {
+    margin-top: 250px;
+    display: grid;
+    place-items: center;
+}
+
+.rightDiv {
+    border: 1px solid rgb(209, 204, 204);
+    width: 30%;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.headline {
+    padding-left: 10px;
+}
+
+.headline img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.photoCube {
+    margin: 50px 0;
+    border: solid 1px rgb(209, 204, 204);
+    border-radius: 5px;
+    width: 470px;
+}
+
+.image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.local {
+    font-size: 15px;
+    color: gray;
+    margin-left: 75px;
+}
+
+.description {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.inputfield {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-top: 1px solid rgb(209, 204, 204);
+    padding-left: 20px;
+}
+
+.post {
+    display: grid;
+    place-items: center;
+    width: 20%;
+    cursor: pointer;
+    border-top: 1px solid rgb(209, 204, 204);
+    color: rgb(1, 149, 246);
+}
+
+.postField {
+    display: flex;
+}
+
+.postComment {
+    padding: 10px;
+}
+
+.commentIcon {
+    padding: 10px;
+}
+
+.commentIcon img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.liken {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 177, 248);
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+}
+
+footer img {
+    width: 35px;
+}
+
+.impressum a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.impressum a:hover {
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.network {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:1200px) {
+    .rightDiv {
+        display: none;
+    }
+    .container {
+        height: 70px;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .navbarInput {
+        display: none;
+    }
+    .headIcons img {
+        display: none;
+    }
+    .storys {
+        margin-top: 150px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .impressum {
+        padding-top: 20px;
+    }
+}
